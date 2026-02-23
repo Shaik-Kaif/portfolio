@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaik-Kaif/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shaik-Kaif/portfolio/issues"
+  },
+  "homepage": "https://github.com/Shaik-Kaif/portfolio#readme",
+  "description": "",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.8",
+    "@mui/material": "^7.3.8",
+    "parcel": "^2.16.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
