@@ -1,16 +1,36 @@
-.DS_*
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
-logs
+logs/
+
+# Backup files
 **/*.backup.*
 **/*.back.*
 
-node_modules
-bower_components
+# Dependencies
+node_modules/
+bower_components/
 
+# Editors
 *.sublime*
 
-psd
-thumb
-sketch
+# Design files
+*.psd
+*.sketch
+thumb/
 
+# Parcel
 .parcel-cache/
+dist/
+.cache/
+
+# Build output
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
